@@ -1,0 +1,313 @@
+body, th, td, input, textarea, select, a {
+    color: #444;
+    font-family: Tahoma,Helvetica,Arial;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+}
+ul, p, h1, h2, h3, h4, h5, h6, dl, dd, dt {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+input, textarea, select {
+    padding: 0;
+}
+/* Header ***********************************************/
+.top-header {    
+    height: 98px;
+}
+.top-header .logo {
+    float: left;
+    margin: 33px 0;
+}
+
+/* Navigation **********************************************/
+.top-menu {
+    background: #fde8e5;
+    height: 38px;
+}
+#nav li {
+    float: left;
+    line-height: 38px;
+    padding: 0 34px;
+}
+#nav li.last {
+    margin-right: 0;
+}
+#nav li a {
+    color: #231f20;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#nav li.active a {
+    color: #ec008c;
+    font-weight: bold;
+}
+
+/* Content ***********************************************/
+#content-wrapper {
+    padding-top: 27px;
+}
+
+/* Newsletter Block *********************************************/
+.newsletter-block {
+    font-size: 12px;
+}
+.newsletter-block.top {
+    float: right;
+    margin: 25px 0;
+}
+.newsletter-block input[type="text"] {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #58595b;
+    float: left;
+    height: 25px;
+    padding: 0 12px;
+    width: 232px;
+    color: #939598;
+    font-size: 12.12px;
+}
+.newsletter-block input[type="submit"] {
+    background: none repeat scroll 0 0 #ec008c;
+    border: none;
+    color: #fff;
+    float: left;
+    font-weight: bold;
+    height: 25px;
+    margin-left: -1px;
+    padding: 0 3px;  
+    font-size: 12.12px;
+}
+.newsletter-block span {
+    display: block;
+    margin-bottom: 7px;
+}
+
+/* Product Detail *******************************************/
+.onsale_big a {
+    float: left;
+    border: 3px solid #bcbec0;
+}
+.more-views {
+    margin-top: 16px;
+    display: inline-block;
+    width: 100%;
+}
+.more-views ul li {
+    float: left;
+    margin:0 16px 16px 0;
+}
+.more-views ul li.last {
+    margin-right: 0;
+}
+.more-views ul li a img {
+    border: 3px solid #bcbec0;
+}
+#cloud-zoom-big {
+    top: -3px !important;    
+    -webkit-box-shadow:0 0 6px -1px;
+    box-shadow:0 0 6px -1px;
+    z-index:999;
+    position:absolute;
+    height:470px!important;
+    width:530px!important;
+    display:block!important;
+    border-radius:10px;
+    margin-left:7px;    
+}
+.product-detail-info {
+  color: #000;
+  font-size: 15.63px;
+  line-height: 25px;  
+  padding: 43px 0 0 36px;
+}
+.product-detail-info .sku, .product-detail-info span.head, #product-options-wrapper dt label {
+  font-size: 18.75px;
+  font-weight: bold;
+}
+.product-detail-info .clear {
+    float: left;
+    width: 100%;
+    height: 25px;
+}
+.product-detail-info .custom-fb-like-btn {
+    margin-top: 32px;
+    display: inline-block;
+    width: 100%;
+}
+#product-options-wrapper dd {
+    margin: 0 0 25px;
+}
+#product-options-wrapper dd.last {
+    margin-bottom: 0;
+}
+#product-options-wrapper dd select {
+    display: none;
+}
+#product-options-wrapper .size-options, #product-options-wrapper .color-options {
+  float: left;
+  width: 100%;
+}
+#product-options-wrapper .size-options a {
+  border: 2px solid #7f7f7f;
+  color: #7f7f7f;
+  float: left;
+  font-size: 14.58px;
+  margin:0 11px 5px 0;
+  padding: 0 4px;
+}
+#product-options-wrapper .view-size-table {
+    color: #58595b;
+    display: inline-block;
+    font-size: 15.63px;
+    margin-top: 6px;
+    text-decoration: underline;
+    width: 100%;
+}
+#product-options-wrapper .color-options a {
+    float: left;
+    margin:0 18px 5px 0;
+}
+
+/* Custom Facebook Like *******************************************/
+.custom-fb-like-btn {
+    position: relative;
+}
+.custom-fb-like-btn iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    display: none;
+}
+.custom-fb-like-btn .custom-fb-like-inner {
+    float: left;
+}
+.custom-fb-like-inner .custom-fb-like-bg {
+    background: url(../images/btn-fb-like.png) no-repeat;
+    width: 81px;
+    height: 34px;
+    position: relative;
+    float: left;
+    margin-right: 7px;
+}
+.custom-fb-like-bg .custom-fb-icon, .custom-fb-like-bg .custom-fb-unlike {
+    background: url(../images/btn-fb-like-icon.png) no-repeat;
+    width: 23px;
+    height: 23px;
+    margin: 6px 7px;
+}
+.custom-fb-like-bg .custom-fb-unlike {
+    background: url(../images/btn-fb-like-unlike.png) no-repeat;
+    display: none;
+}
+.custom-fb-like-inner .custom-fb-like-count-left {
+    float: left;
+    background: url(../images/fb-count-border-left.png) no-repeat;
+    height: 34px;
+    padding-left: 7px;
+}
+.custom-fb-like-inner .custom-fb-like-count-top, .custom-fb-like-inner .custom-fb-like-count-bottom {
+    background: url(../images/fb-count-border.png) repeat-x left top;
+    height: 100%;    
+}
+.custom-fb-like-inner .custom-fb-like-count-bottom {
+    background-position: left bottom;
+    padding: 0 16px;
+    line-height: 34px;
+    font-size: 20.83px;
+    color: #939598;
+}
+.custom-fb-like-inner .custom-fb-like-count-right {
+    background: url(../images/fb-count-border-right.png) no-repeat right top;
+    height: 100%;        
+    padding-right: 2px;
+}
+
+/* Footer *******************************************/
+#footer {
+    margin: 47px auto;
+}
+#footer-inner hr {
+    border-bottom: 1px solid #58595b;
+    margin: 0 0 30px;
+    width: 100%;
+}
+#footer-inner ul li {
+    margin-bottom: 7px;
+}
+#footer-inner ul li.title {
+    color: #231f20;
+    font-size: 16.67px;
+    font-weight: bold;
+    margin-bottom: 17px;
+}
+.fb-follow {
+    display: inline-block;
+    margin-top: 20px;
+    width: 100%;
+}
+.fb-follow span {
+    float: left;
+    margin-right: 7px;
+}
+
+
+/***********************************************/
+@media (max-width: 1024px) {
+    #nav li {        
+        padding: 0 12px;
+    }
+    #bottom-newsletter-form input[type="text"] {
+        width: 225px;
+    }
+    .more-views ul li {
+        margin: 1%;
+        width: 31%;
+    }  
+    #cloud-zoom-big, .cloud-zoom-lens {
+        display: none !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .top-header {
+        height: auto;
+    }
+    .top-header .logo {
+        margin: 20px 0;
+    }
+    .newsletter-block.top {
+        margin: 0px 0 25px;
+    }
+    .newsletter-block input[type="text"], #bottom-newsletter-form input[type="text"] {
+        width: 233px;
+    }
+    .top-menu {
+        height: auto;
+    }
+    #nav li {        
+        padding: 0;
+        width: 100%;
+        line-height: 30px;
+    }
+    #footer-inner ul {
+        margin: 0 0 18px;
+        float: left;
+        width: 100%;
+    }
+    .newsletter-block.bottom {
+        margin-bottom: 18px;
+        float: left;
+    }
+    .more-views ul li {
+        margin: 1%;
+        width: 31%;
+    }    
+    #cloud-zoom-big, .cloud-zoom-lens {
+        display: none !important;
+    }
+}
